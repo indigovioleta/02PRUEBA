@@ -1,0 +1,175 @@
+body {
+	background-color: #E6ECF0;
+}
+
+a {
+	cursor: pointer;
+}
+
+@media (max-width: 767px) {
+	section {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}
+
+
+
+/* MENU */
+
+.navbar {
+	border-bottom: 1px solid #888;
+	background-color: #FFFFFF;
+	font-weight: bold;
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover {
+	background-color: transparent;
+	color: #337AB7;
+	border-bottom: 2px solid #337AB7;
+}
+
+.navbar-brand {
+	position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+
+.fa {
+	font-size: 20px;
+	color: #1DA1F2;
+}
+
+.form-control-nav {
+	background-color: #F5F8FA;
+	height: 35px;
+	width: 200px;
+  	border: #FFF solid 1px;
+	border-radius: 15px;
+	padding: 10px;
+	font-weight: normal;
+	font-size: 13px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-weight: normal;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+  font-weight: normal;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+  font-weight: normal;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  font-weight: normal;
+}
+
+.profile-avatar {
+	margin-left: 15px;
+}
+
+.navbar-default .navbar-collapse, 
+.navbar-default {
+	background-color: white;
+}
+
+.glyphicon-search, {
+	color: #666;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+.form-control-feedback {
+	line-height: 27px;
+}
+
+
+/* TWITTEAR CARD */
+
+div.panel-heading {
+	padding-top: 15px;
+	padding-bottom: 0px;
+}
+
+.tweet {
+	border-radius: 15px;
+	padding: 10px;
+}
+
+.glyphicon-picture {
+	color: #60A6C1;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+.tweet-submit {
+	padding-left: 15px;
+	padding-right: 15px;
+ }
+
+.btn-round-sm {
+	border-radius: 30px;
+	font-weight: bolder;
+	padding: 10px 15px;
+}
+
+
+
+
+/* CUERPO RESULTADO TWEET */
+
+.nav-pills-custom>li>a {
+	color: lightgrey;
+}
+
+.nav-pills-custom>li>a:focus,
+.nav-pills-custom>li>a:hover {
+	background: none;
+}
+
+a.responder:hover {
+	color:#1DA1F2;
+}
+
+a.retwittear:hover {
+	color:green;
+}
+
+a.me-gusta:hover {
+	color:pink;
+}
+
+a.dm:hover {
+	color:darkslateblue;
+}
+
+button.eliminar {
+	margin:10px;
+}
+
+button.eliminar:hover {
+	color:crimson;
+}
+
+.panel-tweet {
+	padding-top: 10px;
+	border: 1px lightgrey solid;
+}
+
+.black {
+	font-weight: bold;
+}
+
+small {
+	color: #CCC;
+}
+
+.likeable {
+	color: hotpink;
+}
